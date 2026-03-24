@@ -1,4 +1,4 @@
-# SiteSpark - Software Solutions Studio
+# SiteSpark - Software Solutions 
 
 SiteSpark is a professional website for a company providing innovative software solutions, built using Bootstrap 5 and JavaScript.
 
