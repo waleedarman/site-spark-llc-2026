@@ -1,0 +1,30 @@
+body {
+  line-height: 1.7;
+}
+
+.page-header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 40px 20px;
+}
+
+h2.section-title {
+  color: #444;
+  margin-top: 2.5rem;
+}
+
+.final-note {
+  margin-top: 50px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background: #f0f0f0;
+  color: #555;
+  font-size: 14px;
+}

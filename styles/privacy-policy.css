@@ -1,0 +1,36 @@
+    .privacy-hero {
+      background-color: rgba(0, 0, 0, 0.65);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .privacy-content section {
+      margin-top: 40px;
+    }
+
+    .privacy-content h3 {
+      color: #444;
+    }
+
+    .privacy-content h4 {
+      color: #555;
+      margin-top: 30px;
+    }
+
+    .privacy-content p,
+    .privacy-content li {
+      color: #555;
+      line-height: 1.8;
+    }
+
+    .privacy-content ul {
+      padding-left: 1.5rem;
+    }
+
+    .center-text {
+      text-align: center;
+      font-weight: bold;
+      color: #555;
+      margin-top: 50px;
+    }

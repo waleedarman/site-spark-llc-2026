@@ -1,0 +1,76 @@
+    .visual-section {
+      position: relative;
+      background-image: url('https://picsum.photos/seed/hero/1600/600');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .visual-section::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 255, 255, 0.5);
+      z-index: 1;
+    }
+
+    .visual-section .content {
+      z-index: 2;
+      text-align: center;
+      max-width: 700px;
+      padding: 20px;
+    }
+
+    .visual-section h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #111;
+    }
+
+    .visual-section p {
+      font-size: 1rem;
+      color: #444;
+    }
+
+    .album-card:hover {
+         transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+    .album-card{
+    transition: all 0.3s ease;
+    border-radius: 0.75rem;
+    }
+
+    .stars {
+      color: #f5b301;
+      font-size: 0.9rem;
+    }
+
+    .btn-view {
+      background-color: #5e60ce;
+      color: #fff;
+    }
+
+    .tab.active {
+      background-color: #5e60ce;
+      color: #fff;
+    }
+
+    .tab-btn {
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.tab-btn.active {
+  background-color: #d1d1d1;
+  font-weight: bold;
+}
+
+.tab-btn:not(.active) {
+  background-color: #f8f9fa;
+}
